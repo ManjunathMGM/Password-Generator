@@ -20,15 +20,15 @@ dif = (input(
 
 if dif == "simple":
     password = ""
-    for c in range(1, let + 1):
+    for _ in range(1, let + 1):
         random_char = random.choice(letters)
         password += random_char
 
-    for s in range(1, sym + 1):
+    for _ in range(1, sym + 1):
         random_sym = random.choice(symbols)
         password += random_sym
 
-    for n in range(1, num + 1):
+    for _ in range(1, num + 1):
         random_num = random.choice(numbers)
         password += random_num
     print(f"Your password is - ' {password} '")
@@ -39,11 +39,11 @@ elif dif == "complex":
         random_char = random.choice(letters)
         final_password += random_char
 
-    for s in range(1, sym + 1):
+    for _ in range(1, sym + 1):
         random_sym = random.choice(symbols)
         final_password += random_sym
 
-    for n in range(1, num + 1):
+    for _ in range(1, num + 1):
         random_num = random.choice(numbers)
         final_password += random_num
     random.shuffle(final_password)
