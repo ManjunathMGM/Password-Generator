@@ -15,10 +15,10 @@ let = int(input("How many letters do you want in your password?\n"))
 sym = int(input("How many symbols do you want?\n"))
 num = int(input("And how many numbers would you like?\n"))
 dif = (input(
-    "And now let's select the complexity of the password.\nSimple or Complex ?\n"
+    "And now let's choose the complexity (low, high):\n"
 )).lower()
 
-if dif == "simple":
+if dif == "low":
     password = ""
     for _ in range(1, let + 1):
         random_char = random.choice(letters)
@@ -33,7 +33,7 @@ if dif == "simple":
         password += random_num
     print(f"Your password is - ' {password} '")
 
-elif dif == "complex":
+elif dif == "high":
     final_password = []
     for c in range(1, let + 1):
         random_char = random.choice(letters)
