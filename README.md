@@ -40,7 +40,7 @@ Your password is - ' w2!)8%73F5!ZRx$ '
 
 ## 🤝 Contributing
 
-Contributions are always welcome! Whether you find a bug, have a suggestion, or want to add a feature—just open an issue or submit a pull request. Let's improve this project together! ✨
+Contributions are always welcome! Whether you find a bug, have a suggestion, or want to add a feature, just open an issue or submit a pull request. Let's improve this project together! ✨
 </br>
 
 ## :pencil: License
